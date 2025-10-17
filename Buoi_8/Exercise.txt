@@ -1,0 +1,31 @@
+Cho cơ sở dữ liệu quanlythuctap
+- Sv(sv, ht, ns, que, hl)
+- Dt(dt, tdt, cn, kp)
+- Sd(sv, dt, ntt, km, kq)
+
+Dùng query để tạo và thực thi các procedure sau
+1. Hiển thị thông tin sinh viên có mã số là 01
+
+2. Hiển thị thông tin sinh viên quê ở TPHCM và có học lực >=8
+
+3. Hiển thị thông tin sinh viên có quê quán được truyền vào khi chạy
+
+4. Thêm vào table sinh viên các dữ liệu sau: 10, ‘Nguyễn Văn Tí’, 12/2/1990, Long An, 10
+- Không kiểm tra
+- Kiểm tra khóa chính
+- Kiểm tra học lực
+
+5. Cộng thêm 0.5 điểm học lực cho sinh viên quê ở Bình Phước
+- Không vượt quá 10
+
+6. Hiển thị kinh phí cao nhất của đề tài. Liệt kê các đề tài có kinh phí cao nhất (dùng tham số đầu ra)
+
+7. Thêm dữ liệu vào table sd. Nếu sv hoặc dt bị trống thì không cho thêm vào.
+
+8. Thêm dữ liệu vào table sd. Nếu sv hoặc dt không tồn tại trong table sv và dt thì không cho thêm vào.
+
+9. Thêm một đề tài vào table dt. Hiển thị các đề tài có kinh phí lớn hơn đề tài vừa thêm vào.
+
+10. Hiển thị những sinh viên thực tập kém nhất lớp. Các đề tài có sinh viên học kém nhất lớp tham gia.
+
+11. Thêm một dữ liệu vào table sd. Kiểm tra nếu dt vừa thêm vào đã được chọn hơn 4 lần thì không cho nhập vào dữ liệu.
